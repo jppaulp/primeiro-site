@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+<head> <!-- Titlulo do site-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peruchi Trading</title>
+    <title>Perfil landing</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+<style> 
+    table th,tr,td, footer {
+        border: 5px solid black;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
 
-<body>
+</style>
 
-    <header>
-        <h1>Peruchi Tranding</h1> <!-- Empresa-->
+<body> <!-- corpo do site-->
+    <!-- Este site destina-se a uma apresentação básica do estudante João Paul Peruchi em sua
+     progressão ao desenvolviemento de Html e Css, mostrando suas habilidades adquiridas durante
+     o curso online via Sctec ministrado Pelo Senai de Santa catarina-->
+    
+
+
+
+    <header><!-- Nome do estudante  apresentando links referentes a sua vida, conheciementos técnicos
+         e formas de contato, assim como uma imagem da cidade onde trabalha e vive, estes links pulam para os textos
+         explicativos, desenvolvidos como tags e links referenciais-->
+        <h1 class="piscando", class="Topo"> João Peruchi Desenvolvedor Iniciante  </h1>  
         <nav>
             <ul> <!--lista de links-->
-                <li><a href="#sobre">Sobre a Empresa</a></li>
-                <li><a href="#conhecimentos">Conhecimentos Técnicos da Empresa</a></li>
+                <li><a href="#sobre">Sobre João Peruchi</a></li>
+                <li><a href="#conhecimentos">Conhecimentos Técnicos </a></li>
                 <li><a href="#contatos">contatos</a></li>
-                <li><a href="https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior"target="_blank"> Secretaria de Comércio Exterior</a></li>
+                <li><a href="https://portallitoralsul.com.br/wp-content/uploads/2023/03/Area-do-lago-do-Parque-Municipal-Prefeito-Altair-Guidi-passara-por-revitalizacao.jpg"target="_blank"> Prefeitura de Criuma</a></li>
 
 
             </ul>
@@ -24,32 +43,91 @@
     </header>
 
     <section id="sobre">
-        <h2>Sobre a Empresa</h2>
-        <img src="https://www.silvanatoazza.com.br/cms/assets/uploads/files/812cf-imagem-aerea-bom-principio-alimentos-2025.jpg"
-            alt="https://t4.ftcdn.net/jpg/17/32/79/91/240_F_1732799198_DjfdxW3vQt6gK30ymDqEQ0OhPlIsMMFg.jpg" title="Empresa Matriz">
 
-        <article>
+        <h2>Sobre João Peruchi</h2>
+        
+        <img  src="https://www.revistaadnormas.com.br/uploads/2024/09/014.jpg"
+            alt="https://t4.ftcdn.net/jpg/17/32/79/91/240_F_1732799198_DjfdxW3vQt6gK30ymDqEQ0OhPlIsMMFg.jpg" title="Campo do Criciuma">
+
+
+        <article class="article">
             <p>
-                Essa empresa iniciou suas atividades em Caxias do sul,
-                incialmente exportando e importando produtos para
-                caminhão, peças de reposição, pneus para veiculos pesado,
-                faróis e parafusos para montadoras da região da
-                Serra gaucha.
+                Desenvolvedor iniciante pelo Programa Sc tech. Sou fánatico por tecnologia e quimica, biologia.
+                Trabalho na aéra de alimentação animal com envolvimento direto em Sofwares de automação na produção
+                de ração animal, dosagem de nutrientes, misturas, granulação de ração, análises físicas e quantitativas
+                de nutrientes. Atualmente trabalho em Criciuma em uma multinacional. Desejo desenvolver um aplicativo
+                voltado para a área de agronegócio e vise faciliar a vida dos integrados no controle dos silos 
+                de ração e para o melhor rendimento e conversão alimentar do animal em crescimento.
+            
             </p>
         </article>
-        <aside id="conhecimentos">
-            <h3>Conhecimentos Técnicos da Empresa</h3>
+
+        <aside id="conhecimentos"> <!-- Nesse escopo demostra-se as linguagens de que se possua algun conhecimento
+            técnico, assim como aplicativos e sistemas em que se trabalhe  ou desenvolva algun código, assim como 
+            assuntos de trabalho diário em seu período laboral-->
+            <h3 class="know"> Conhecimentos Técnicos</h3>
             <ul>
-                <li>Exportação</li>
-                <li>importação</li>
-                <li>drawback - Drawback Verde amarelo</li>
-                <li>desenvolvimentos de fornecedores internacionais</li>
+                <li>PHP</li>
+                <li>Visual Code</li>
+                <li>Java Script</li>
+                <li>Alimentação Animal</li>
+                <li>CSS</li>
             </ul>
-        </aside>
-        <footer id="#contatos">
+            
+            <section id="habilidades desenvolvidas"> <!-- Durante o curso foram desevolvidos conhecimentos
+                iniciais  de Html, Css, formado linha de pensamento referente a sites e funções aplicadas
+                as páginas, usando o  javascript. Foram mencionados aplicativos de áreas não trabalhadas
+                para agregar ao projeto, foram udados conceitos de tabelhas e tags e links, assim como classes
+                estilidas no Css-->
+
+                <h2> Tecnologias</h2>
+
+                <table>
+                    
+                    <thead class="article">
+                        <tr>
+                            <th>Tecnologias</th>
+                            <th>Apps</th>
+                            <th>sistemas</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr>
+                            <td>embarcada</td>
+                            <td>bancários</td>
+                            <td>Mtech</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>IT</td>
+                            <td>Varejo</td>
+                            <td>SRP</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>De Automação</td>
+                            <td>Armazens</td>
+                            <td>Agrosys</td>
+                            
+                        </tr>
+                    </tbody>
+
+                </table>
+
+
+
+            </section>
+
+
+           
+        </aside> <!-- Nesse campo formam desevolvidos conceitos referentes a  formação de campos
+        para emails, telefones com hiper referencias para campos protegidos-->
+        <footer class="rodape" id="contatos">
+
+
             <section>
-                <h3>Contatos</h3>
-                <p> Entre em contato pelos seguintes endereços:</p>
+                <h3 class="contatos">Contatos</h3>
+                <p class="piscando"> Entre em contato pelos seguintes endereços:</p>
 
                 <address>
 
@@ -59,11 +137,60 @@
                 </address>
             </section>
 
-        </footer>
+        </footer> <!-- campo referente a rodapés de sites como criação de campos para inputs de nomes, emails
+        assuntos protegidos, assim como campos de seleção de infomações a serem vistas e resolvidas e  por fim o campo
+        submissão para o envio ao banco de dados ou para atendimento-->
+
+
+        <section> 
+
+    <footer class="rodape"> <!--Nesse campo foram inseridos labels para nomes, emails e telefones, com
+         com o desenvolvimento de conceitos das tags para esses campos com o intuito dos usuários
+         enviarem suas informações para a empresa. Esse site e uma simples ferramenta de apresentação
+         com os conceitos básicos de Html, Css -->
+
+        <P>Direitos reservados ao João</P>
+
+        <p>Faça contato Com o João para seu projeto.</p>
 
 
 
+        <form class="rodape";action="">
 
+        <label for="nome">Nome</label>
+        <input type="text" id="nome " name="nome"required><br>
+
+        <label for="e-mail">e-mail:</label>
+        <input type="email" id="email" name="email"required><br>
+
+        <label for="Telefone">Telefone</label>
+        <input type="tel" id="Telefone" name="Telefone"required><br>
+
+        <label for="Assunto">Assunto</label>
+        <select name="Assunto" id="Assunto"required>
+            <option value="orçamento">orçamento</option>
+            <option value="duvida">dúvida</option>
+            <option value="outro">Outros</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label><br>
+
+        <textarea name="mensagem" id="mensagem" cols="80" rows="10"></textarea><br>
+
+        <input type="checkbox" id="inscricao" name="inscricao">
+        <label for="inscricao">Deseja receber informações:</label><br>
+        <input type="submit" value="Enviar mensagem">
+        <input type="date">
+        
+
+
+        </form>
+
+    </footer>
+
+    </section>
+   
 </body>
+
 
 </html>
